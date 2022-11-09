@@ -8,7 +8,8 @@ Dataset link : https://www.kaggle.com/datasets/ahsen1330/us-police-shootings
 
 Dataset Description :
 Made use of 4 datasets : 
-1) Police shootings 
+1) Police shootings dataset :
+
 id: a unique identifier for each victim
 name: the name of the victim
 date: the date of the fatal shooting in YYYY-MM-DD format
@@ -35,6 +36,7 @@ state: two-letter postal code abbreviation
 signs of mental illness: News reports have indicated the victim had a history of mental health issues, expressed suicidal intentions or was experiencing mental distress at the time of the shooting.
 
 threat_level: The threat_level column was used to flag incidents for the story by Amy Brittain in October 2015. http://www.washingtonpost.com/sf/investigative/2015/10/24/on-duty-under-fire/ As described in the story, the general criteria for the attack label was that there was the most direct and immediate threat to life. That would include incidents where officers or others were shot at, threatened with a gun, attacked with other weapons or physical force, etc. The attack category is meant to flag the highest level of threat. The other and undetermined categories represent all remaining cases. Other includes many incidents where officers or others faced significant threats.
+
 flee: News reports have indicated the victim was moving away from officers
 Foot
 Car
