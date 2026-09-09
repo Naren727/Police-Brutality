@@ -33,4 +33,16 @@ share_hispanic : % of hispanic people in the area
 share_asian : % of asian people in the area 
 share_native : % of native american raced people in the area 
 
+## Running the dashboard
+
+```bash
+python -m venv .venv
+.venv/Scripts/pip install -r requirements.txt  # .venv/bin/pip on macOS/Linux
+.venv/Scripts/streamlit run app.py              # .venv/bin/streamlit on macOS/Linux
+```
+
+## Deploying
+
+This app is ready to deploy on [Streamlit Community Cloud](https://streamlit.io/cloud) —
+point it at this repo with `app.py` as the entrypoint.
 
